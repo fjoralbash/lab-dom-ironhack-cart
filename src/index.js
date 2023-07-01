@@ -10,9 +10,9 @@ function updateSubtotal(product) {
 
   let subTotal = product.querySelector(".subtotal span");
 
-  subTotal.innerHTML = priceXquantity;
+  let subTotalValue = subTotal.innerHTML = priceXquantity;
   
-  return subTotal;
+  return subTotalValue;
 }
 
 
